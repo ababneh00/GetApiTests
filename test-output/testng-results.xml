@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8025" started-at="2018-04-19T03:38:38Z" finished-at="2018-04-19T03:38:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8025" started-at="2018-04-19T03:38:38Z" finished-at="2018-04-19T03:38:46Z">
+      <class name="apiTesting.SearchApiTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="setUp" is-config="true" duration-ms="782" started-at="2018-04-19T03:38:38Z" finished-at="2018-04-19T03:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchArchivedReposOnly()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchArchivedReposOnly" duration-ms="3035" started-at="2018-04-19T03:38:39Z" finished-at="2018-04-19T03:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchArchivedReposOnly -->
+        <test-method status="PASS" signature="searchPrivateRepos()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchPrivateRepos" duration-ms="452" started-at="2018-04-19T03:38:42Z" finished-at="2018-04-19T03:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPrivateRepos -->
+        <test-method status="PASS" signature="searchPublicRepos()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchPublicRepos" duration-ms="810" started-at="2018-04-19T03:38:42Z" finished-at="2018-04-19T03:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPublicRepos -->
+        <test-method status="PASS" signature="searchReposByCreatedDate()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchReposByCreatedDate" duration-ms="317" started-at="2018-04-19T03:38:43Z" finished-at="2018-04-19T03:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchReposByCreatedDate -->
+        <test-method status="PASS" signature="searchReposByFullRepoName()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchReposByFullRepoName" duration-ms="744" started-at="2018-04-19T03:38:43Z" finished-at="2018-04-19T03:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchReposByFullRepoName -->
+        <test-method status="PASS" signature="searchReposByLanguage()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchReposByLanguage" duration-ms="800" started-at="2018-04-19T03:38:44Z" finished-at="2018-04-19T03:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchReposByLanguage -->
+        <test-method status="PASS" signature="searchReposByLicense()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchReposByLicense" duration-ms="296" started-at="2018-04-19T03:38:45Z" finished-at="2018-04-19T03:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchReposByLicense -->
+        <test-method status="PASS" signature="searchReposByUserName()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchReposByUserName" duration-ms="366" started-at="2018-04-19T03:38:45Z" finished-at="2018-04-19T03:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchReposByUserName -->
+        <test-method status="PASS" signature="searchReposWithMirror()[pri:0, instance:apiTesting.SearchApiTests@4b952a2d]" name="searchReposWithMirror" duration-ms="377" started-at="2018-04-19T03:38:46Z" finished-at="2018-04-19T03:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchReposWithMirror -->
+      </class> <!-- apiTesting.SearchApiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
